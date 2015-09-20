@@ -1,0 +1,207 @@
+/*wrapper classes*/
+
+.wrapper
+{
+	background: #FFFFFF;
+	border:1px solid #ddd;
+	margin: auto;
+	width: 350px;
+	font-size: 18px;
+	-moz-box-shadow:10px 10px 5px #666666;
+    -webkit-box-shadow:10px 10px 5px #666666;
+	box-shadow: 10px 10px 5px #666666;
+}
+
+/*Wrapper headers - "Login" and "Forgot Password"   */
+.wrapper h3
+{
+	padding:20px 30px 20px 30px;
+	background-color:#333;
+	color:#fff;
+	font-size:20px;
+	border-bottom:5px solid #eee;
+}
+
+
+
+
+
+/* form active or inactive */
+
+.wrapper form
+{
+	display:none;
+	background:#fff;
+}
+
+form.active
+{
+	display:block;
+}
+
+
+
+/* Width defs */
+
+form.login
+{
+	width:350px;
+}
+
+form.forgot_password
+{
+	width:350px;
+}
+
+
+
+/* Links Styling */
+
+.wrapper a
+{
+	color:#eb7501;
+	font-size:15px;
+}
+
+.wrapper a:hover
+{
+	color: #0279ec;
+	font-size:15px;
+}
+
+
+
+/* Label Styling - "UserName" and "Password"  */
+
+.wrapper label
+{
+	display:block;
+	padding:10px 30px 0px 30px;
+	margin:10px 1px 1px 1px;
+}
+
+
+
+
+
+/*Gradients*/
+
+.wrapper input[type="text"],
+.wrapper input[type="password"]
+{
+	display:block;
+	padding:8px;
+	margin:5px 5px 5px 5px;
+	width:75%;
+	font-size:16px;
+	
+	
+	background:-webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(5%, #eee), to(#FFFFFF)); 
+    -webkit-box-shadow: 0px 0px 8px #b7b7b7;
+}
+
+
+.wrapper input[type="text"]:focus,
+.wrapper input[type="password"]:focus
+{
+	background:#fff;
+}
+
+
+
+
+
+
+
+.wrapper .bottom
+{
+    background-color:#444;
+    border-top:1px solid #ddd;
+    margin-top:20px;
+    color:#000;
+    text-shadow:1px 1px 1px #000;
+}
+
+
+/* Links */
+.wrapper .bottom a{
+    display:block;
+    clear:both;
+    padding:10px 30px;
+    text-align:right;
+    color:#ffa800;
+    text-shadow:1px 1px 1px #000;
+}
+
+
+.wrapper a.forgot{
+
+	float:right;
+    font-style:italic;
+    line-height:24px;
+    color:#ffa800;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.wrapper a.forgot:hover
+{
+    color:#000;
+}
+
+
+/*checkbox */
+
+.wrapper div.remember
+{
+    float:left;
+    width:140px;
+    margin:20px 0px 20px 30px;
+    font-size:11px;
+}
+
+.wrapper div.remember input
+{
+    float:left;
+    margin:2px 5px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* submit button*/
+
+
+.wrapper input[type="submit"] 
+{
+	background: #e3e3e3;
+	border: 1px solid #ccc;
+	color: #333;
+	font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+	font-size: 14px;
+	padding: 8px 0 9px;
+	text-align: center;
+    width: 150px;
+    cursor:pointer;
+	float:right;
+    margin:15px 20px 10px 10px;
+}
+
+
+
+.wrapper input[type="submit"]:hover 
+{
+    background: #d9d9d9;
+	color: #222;
+    -moz-box-shadow: 0px 0px 2px #eaeaea;
+    -webkit-box-shadow: 0px 0px 2px #eaeaea;
+    box-shadow: 0px 0px 2px #eaeaea;
+    
+}

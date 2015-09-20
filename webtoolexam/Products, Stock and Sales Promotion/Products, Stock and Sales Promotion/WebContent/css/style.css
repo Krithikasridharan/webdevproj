@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image:url(../images/bg_dot.png);
+}
+
+#supercontainer
+{
+	width:1024;
+	background-color:#333333;
+}
+
+#headcontainer
+{
+	width:auto;
+}
+
+#container
+{
+	width:auto;
+}
+
+#footercontainer
+{
+	width:auto;
+	background-color:#333333;
+}
+
